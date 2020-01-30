@@ -14,3 +14,5 @@ class Comentario(models.Model):
                self.comentario, \
                self.nota, \
                self.data
+    class Meta:
+        verbose_name =  "Comentario"

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513e9925-3953-40ab-851a-ba9b6ec25cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_turisticos/atracoes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/atracoes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pontos_turisticos/atracoes/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pontos_turisticos/atracoes/migrations/0002_auto_20200130_1954.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pontos_turisticos/atracoes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/atracoes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_turisticos/comentarios/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/comentarios/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pontos_turisticos/comentarios/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pontos_turisticos/comentarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/comentarios/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pontos_turisticos/core/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pontos_turisticos/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_turisticos/pontos_turisticos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/pontos_turisticos/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

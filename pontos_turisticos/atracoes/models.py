@@ -18,3 +18,6 @@ class Atracoes(models.Model):
                self.horario_de_funcionamento, \
                self.idade_minima, \
                self.localizacao
+
+    class Meta:
+        verbose_name = "Atracoe"

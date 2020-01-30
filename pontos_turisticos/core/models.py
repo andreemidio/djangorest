@@ -17,3 +17,5 @@ class PontoTuristico(models.Model):
         return self.nome, \
                self.descricao, \
                self.aprovado
+    class Meta:
+        verbose_name =  "PontoTuristico"
