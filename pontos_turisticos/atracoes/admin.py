@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Atracao
+from .models import Atracoes
 # Register your models here.
 
-admin.site.register(Atracao)
+admin.site.register(Atracoes)

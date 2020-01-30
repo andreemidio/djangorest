@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     #minha aplicação
     'core',
     'atracoes',
+    'comentarios',
 
     #aplicacao terceira
     'rest_framework',
