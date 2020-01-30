@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'core',
     'atracoes',
     'comentarios',
+    'localizacao',
 
     #aplicacao terceira
     'rest_framework',

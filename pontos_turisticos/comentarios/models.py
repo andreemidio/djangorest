@@ -8,11 +8,8 @@ class Comentario(models.Model):
     comentario = models.TextField(null=True, blank=True)
     nota = models.DecimalField(max_digits = 10, decimal_places=0)
     data = models.DateTimeField(auto_now_add=True)
-
+    visivel = models.BooleanField()
     def __str__(self):
-        return self.user.username, \
-               self.comentario, \
-               self.nota, \
-               self.data
+        return self.user.username
     class Meta:
         verbose_name =  "Comentario"

@@ -13,11 +13,7 @@ class Atracoes(models.Model):
 
 
     def __str__(self):
-        return self.nome_atracao,\
-               self.descricao, \
-               self.horario_de_funcionamento, \
-               self.idade_minima, \
-               self.localizacao
+        return self.nome_atracao
 
     class Meta:
         verbose_name = "Atracoe"

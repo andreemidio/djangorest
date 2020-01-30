@@ -1,6 +1,7 @@
 from django.db import models
 from atracoes.models import Atracoes
-from comentarios.models import Comentario
+#from comentarios.models import Comentario
+from localizacao.models import Localizacao
 
 
 
@@ -10,12 +11,11 @@ class PontoTuristico(models.Model):
     descricao = models.TextField(null = False, blank=True)
     aprovado = models.BooleanField(null = False, default=False)
     atracoes =  models.ManyToManyField(Atracoes)
-    comentario =  models.ManyToManyField(Comentario)
+    #comentario =  models.ManyToManyField(Comentario)
+    localizacao  = models.ForeignKey(Localizacao, on_delete=models.CASCADE)
     visivel = models.BooleanField()
 
     def __str__(self):
-        return self.nome, \
-               self.descricao, \
-               self.aprovado
+        return self.nome
     class Meta:
         verbose_name =  "PontoTuristico"
