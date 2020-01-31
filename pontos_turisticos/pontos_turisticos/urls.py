@@ -41,9 +41,11 @@ class UserViewSet(viewsets.ModelViewSet):
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'ponto-turistico', PontoTuristicoSet, basename='PontoTuristico')
-router.register(r'comentario', ComentariosSet, basename='Comentarios')
+router.register(r'comentarios', ComentariosSet, basename='Comentarios')
 router.register(r'atracoes', AtracoesSet, basename='Atracoes')
-router.register(r'Localizacao', LocalizacaoSet, basename='Localizacao')
+router.register(r'localizacao', LocalizacaoSet, basename='Localizacao')
+
+
 
 urlpatterns = [
     path('api/', include(router.urls)),
