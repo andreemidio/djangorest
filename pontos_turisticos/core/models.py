@@ -1,6 +1,6 @@
 from django.db import models
 from atracoes.models import Atracoes
-#from comentarios.models import Comentario
+from comentarios.models import Comentario
 from localizacao.models import Localizacao
 
 
@@ -8,11 +8,11 @@ from localizacao.models import Localizacao
 # Create your models here.
 class PontoTuristico(models.Model):
     nome = models.CharField(max_length=250, null = False, blank=True)
-    descricao = models.TextField(null = False, blank=True)
-    aprovado = models.BooleanField(null = False, default=False)
+    descricao = models.TextField(null=False, blank=True)
+    aprovado = models.BooleanField(null=False, default=False)
     atracoes =  models.ManyToManyField(Atracoes)
-    #comentario =  models.ManyToManyField(Comentario)
-    localizacao  = models.ForeignKey(Localizacao, on_delete=models.CASCADE)
+    comentario =  models.ManyToManyField(Comentario)
+    localizacao  = models.ForeignKey(Localizacao, on_delete=models.CASCADE, null=True, blank=True)
     visivel = models.BooleanField()
 
     def __str__(self):
